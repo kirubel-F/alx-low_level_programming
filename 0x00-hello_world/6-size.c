@@ -1,18 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-* main- prints using puts function
-*Return:0 when finished
-*/
-int main() {
-    int intType;
-    float floatType;
-    double doubleType;
-    char charType;
-
-    // sizeof evaluates the size of a variable
-    printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of float: %zu bytes\n", sizeof(floatType));
-    printf("Size of double: %zu bytes\n", sizeof(doubleType));
-    printf("Size of char: %zu byte\n", sizeof(charType));   
-    return 0;
+ * main-entry
+ * Return:0 ended
+ */
+int main(void)
+{
+printf("Size of a char: %u byte(s)\n", sizeof(char));
+printf("Size of an int: %u byte(s)\n", sizeof(int));
+printf("Size of a long int: %u byte(s)\n", sizeof(long));
+printf("Size of a long long int: %u byte(s)\n", sizeof(long long));
+printf("Size of a float: %u byte(s)\n", sizeof(float));
+return (0);
 }
