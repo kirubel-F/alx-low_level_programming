@@ -4,7 +4,6 @@
  *
  * Always return(0)
  */
-
 int main(void)
 {
 	char ch = 'a';
@@ -14,6 +13,5 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
-
 	return (0);
 }
