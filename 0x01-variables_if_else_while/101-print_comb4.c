@@ -1,30 +1,33 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
  * main - a simple program that outputs 0-9 separated by commas
  *
  * Return: 0 on success
  */
-int main()
+int main(void)
 {
- 	char i = '0';
- 	char k = '1';
- 	char j = '0';
-	
-	for ( i = '0' ; i <= '8'  ; i++ ){
-	for (k = i +1 ; k <= '9' ; k++){
-	for (j = k +1 ; j <= '9' ; j++){
-      
-        putchar(i);
-        putchar(k);
-        putchar(j);
-        putchar(',');
-        
-        putchar(' ');
+	int i;
+	int j;
+	int k;
+
+	for (i = 48; i < 56; i++)
+	{
+		for (j = i + 1; j < 57; j++)
+		{
+			for (k = j + 1; k < 58; k++)
+			{
+				putchar(i);
+				putchar(j);
+				putchar(k);
+				if (i != 55 || j != 56 || k != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
-    }
-      
-	}
-return (0);
+	putchar('\n');
+	return (0);
 }
