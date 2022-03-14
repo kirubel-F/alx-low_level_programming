@@ -21,7 +21,6 @@ int main()
         putchar(' ');
         
         }
-        // k=i+1;
 	 }
 return (0);
 }
