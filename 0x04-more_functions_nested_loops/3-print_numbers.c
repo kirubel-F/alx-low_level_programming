@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * mul - multiplies two integers
- * @a: int to be multiplied to b
- * @b: int to be multiplied to a
- * Return: the result of the operation
+ * print_numbers - prints the numbers, from 0 to 9,
+ * followed by a new line
  */
 void print_numbers(void)
 {
-  char c;
-  for ( c = '0'; c <='9'; c++)
-  {
-    _putchar('c');
-  }
-  _putchar(\n);
- 
+	int c;
+
+	for (c = 0; c < 10; c++)
+	{
+		_putchar(c + '0');
+	}
+
+	_putchar('\n');
 }
