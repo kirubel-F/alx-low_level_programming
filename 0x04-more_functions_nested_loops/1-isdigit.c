@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*isdigit - checks for digiit(0 through 9)
-* @c: Variable text
-* Return: Always 0.
+* _isdigit - function that check if it's a digit
+* @c: takes in a character/digit
+* Return: 1 if digit and 0 if anything else
 */
 int _isdigit(int c)
 {
@@ -13,8 +13,8 @@ int _isdigit(int c)
 	return (1);
 	}
 	else
-{
+	{
 	return (0);
-}
+	}
 	
 }
