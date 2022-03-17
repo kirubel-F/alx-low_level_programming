@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
-* _isdigit - function that check if it's a digit
-* @c: takes in a character/digit
-* Return: 1 if digit and 0 if anything else
-*/
+ * mul - multiplies two integers
+ * @a: int to be multiplied to b
+ * @b: int to be multiplied to a
+ * Return: the result of the operation
+ */
 int mul(int a, int b)
 {
 	return (a*b);
