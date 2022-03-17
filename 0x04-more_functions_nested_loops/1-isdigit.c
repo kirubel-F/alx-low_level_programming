@@ -1,12 +1,13 @@
 #include "main.h"
 /**
-* _isupper - checks for uppercase character
+*isdigit - checks for digiit(0 through 9)
 * @c: Variable text
 * Return: Always 0.
 */
 int _isdigit(int c)
 {
 
+	
 	if (c >= '0' && c <= '9')
 	{
 	return (1);
@@ -15,5 +16,5 @@ int _isdigit(int c)
 {
 	return (0);
 }
-
+	
 }
